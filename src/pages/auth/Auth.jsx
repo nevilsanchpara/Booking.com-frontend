@@ -101,7 +101,7 @@ const Auth = (props) => {
                 className="mt-4 px-4 py-2 mb-3 bg-[#006CE4] text-white rounded hover:bg-[#003B95] focus:outline-none focus:ring-2 focus:ring-blue-400">
                 Continue with email
               </button>
-              <GoogleOAuthProvider clientId="10923404746-jddmhaurvil2dphaa6giqb81ngnvu31q.apps.googleusercontent.com">
+              <GoogleOAuthProvider clientId="636422965732-o7lpdfqjlvt92r888l4b0r12tomkseqg.apps.googleusercontent.com">
                 <GoogleLogin
                   onSuccess={(credentialRes) => {
                     console.log(credentialRes.credential);
